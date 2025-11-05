@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>My Schedule</title>
+</head>
+<body>
+	<header>
+		<h1>My Schedule</h1>
+		<p>Your selected courses are listed below.</p>
+			<tbody>
+				<!-- User schedule rows will be injected by the server from db.js -->
+			</tbody>
+					<td>Mon 10:00–11:30</td>
+					<td>Room G101</td>
+					<td><a href="/remove?course_id=101">Remove</a></td>
+				</tr>
+				<tr>
+					<td>MATH 110</td>
+					<td>Calculus I</td>
+					<td>Prof. John Doe</td>
+					<td>Tue 09:00–10:30</td>
+					<td>Room A201</td>
+					<td><a href="/remove?course_id=110">Remove</a></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p><a href="/courses">Back to courses</a></p>
+	</main>
+</body>
+</html>
